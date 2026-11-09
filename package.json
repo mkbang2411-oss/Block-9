@@ -1,0 +1,43 @@
+{
+  "name": "restaurant-app",
+  "version": "1.0.0",
+  "description": "SPA + REST API (Express + Sequelize + Supabase Postgres), xác thực JWT, RBAC/ABAC",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "db:seed": "node scripts/seed.js",
+    "build:css": "node scripts/build-css.js",
+    "db:thumbs": "node scripts/make-thumbs.js",
+    "db:migrate": "node scripts/migrate.js",
+    "db:seed:reset": "node scripts/seed.js --reset --yes",
+    "test:search": "node scripts/test-search.js",
+    "db:set-role": "node scripts/set-role.js",
+    "db:seed:users": "node scripts/seed-users.js",
+    "test:auth": "node scripts/test-auth.js",
+    "test:register": "node scripts/test-register.js",
+    "test:mfa": "node scripts/test-mfa.js",
+    "test:avatar": "node scripts/test-avatar.js",
+    "test:ui-auth": "python3 scripts/e2e/auth-ui-check.py"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.117.3",
+    "bcryptjs": "^3.0.3",
+    "compression": "^1.8.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.4.0",
+    "nodemailer": "^7.0.0",
+    "pg": "^8.13.1",
+    "pg-hstore": "^2.3.4",
+    "qrcode": "^1.5.4",
+    "sequelize": "^6.37.5",
+    "sharp": "^0.35.5",
+    "ws": "^8.22.0"
+  },
+  "devDependencies": {
+    "clean-css": "^5.3.3",
+    "nodemon": "^3.1.9"
+  }
+}

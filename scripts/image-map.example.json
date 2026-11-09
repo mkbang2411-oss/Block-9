@@ -1,0 +1,5 @@
+{
+  "_ghi_chu": "Copy file này thành image-map.json. Khóa = tên món trong DB, giá trị = tên file ảnh GỐC trong bucket (không phải _s.webp). Xóa các dòng ví dụ và điền món thật.",
+  "Phở bò": "06340923-6fff-4e3a-a33e-0c40bb46f4a7.webp",
+  "Bún chả": "0cfa0b58-e750-4a6d-b000-000000000000.webp"
+}
